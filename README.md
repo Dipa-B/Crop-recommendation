@@ -1,6 +1,14 @@
 # Crop Recommendation System
 
+## Fieldwise JavaScript app
 
+Open `index.html` in a browser to use the warm, mobile-friendly crop finder. Enter your field's N, P, K, pH and seasonal weather readings to see the closest crop reference profiles. The optional trace-nutrient fields mirror the research notebook's inputs.
+
+The notebook trains several classifiers on `crop_dataset.csv`, but that dataset is not included in this repository and the notebook does not save a deployable model. The interactive finder is therefore an explicitly labeled reference-profile preview, not a prediction from the notebook's trained model. Its match score is a profile similarity, not a probability or yield guarantee. To deploy the original trained model, supply the training dataset and export the selected classifier for JavaScript inference.
+
+The supplied model-comparison chart is shown in the app under “The research behind the tool.”
+
+---
 
 ## Introduction
 
